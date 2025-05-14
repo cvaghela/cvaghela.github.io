@@ -1,0 +1,142 @@
+/*Store Locator*/
+.store-page-wrapper {
+    margin-top: 7rem;
+    padding-bottom: 2rem;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.store-page-wrapper p {
+    line-height: 22px;
+}
+.store-page-wrapper h1,
+.store-page-wrapper h2,
+.store-page-wrapper h3,
+.store-page-wrapper h4,
+.store-page-wrapper h5,
+.store-page-wrapper h6,
+.store-page-wrapper p,
+.store-page-wrapper figure,
+.store-page-wrapper ul {
+    margin: 0;
+}
+.store-left-panel {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px -10px rgb(0 0 0 / 30%);
+}
+.store-left-panel .card-header {
+    font-weight: bold;
+    background: #fff;
+    color: var(--main-bg-color);
+    font-size: 18px;
+}
+.store-city-list {
+    max-height: 600px;
+    overflow: auto;
+    position: sticky;
+    top: 1rem;
+}
+.store-left-panel ul li a {
+    font-size: 16px;
+    display: block;
+    padding: 5px 0;
+}
+.store-left-panel ul i {
+    margin-right: 5px;
+}
+.card-wrap {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px -10px rgb(0 0 0 / 30%);
+}
+.store-wrap {
+    margin-bottom: 1rem;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+.store-wrap:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+.store-wrap img {
+    width: 100px;
+    margin-right: 15px;
+}
+.store-wrap ul {
+    margin-top: 5px;
+    color: #999;
+}
+.store-wrap ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 12px;
+}
+.store-wrap .btn {
+    padding: 5px 20px !important;
+}
+.btn.btn-secondary {
+    color: var(--secondary-bg-color) !important;
+}
+.btn.btn-secondary.primary {
+    color: #fff !important;
+}
+/*responsive*/
+
+@media screen and (max-width: 767px) {
+.store-page-wrapper {
+	margin-top: 6rem;
+	padding-bottom: 3rem;
+}
+.store-wrap .media {
+	display: block;
+	text-align: center;
+}
+.store-wrap .media img {
+	display: inline-block;
+	margin-right: 0px;
+	margin-bottom: 7px;
+}
+.store-page-wrapper h2 {
+	margin-bottom: 10px;
+}
+.store-wrap .btn {
+	width: 100%;
+	padding: 10px !important;
+}
+.store-wrap ul li {
+	margin: 0 5px;
+}
+.e-offers-wrap h5,
+.store-left-panel .card-header {
+	font-size: 16px;
+}
+.store-left-panel .card-body {
+	padding: 10px;
+}
+.store-city-list {
+	height: auto;
+}
+.store-left-panel ul li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.store-left-panel ul li a {
+	font-size: 12px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 2px 5px;
+	margin-bottom: 5px;
+}
+}
+@media screen and (max-width: 575px) {
+.store-page-wrapper {
+	margin-top: 6rem;
+	padding-bottom: 5rem;
+}
+}
+/*Store Locator*/

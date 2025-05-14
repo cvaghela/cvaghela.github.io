@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.colored {
+	background-color: #f5f5f5;
+}
+
+.common-spacing {
+    padding: 25px 0px;
+}
+.common-heading {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--main-bg-color);
+}
+@media only screen and (max-width: 767px) {
+.common-spacing {
+    padding: 20px 0px;
+}
+.common-heading {
+    font-size: 22px;
+}
+
+}
+
+.before-color:before {
+    position: absolute;
+    content: "";
+    background-color: var(--main-bg-color);
+    height: 100%;
+    width: 4px;
+    left: -15px;
+    top: 0px;
+}
+.font-weight-bold {
+    font-weight: 700!important;
+}
+.font-weight-semibold {
+    font-weight: 600!important;
+}
+.font-weight-medium {
+	font-weight: 500!important;
+}
+.font-weight-normal {
+	font-weight: 400!important;
+}
+.color-three {
+    color: #000000;
+}
+.color-one {
+    color: #568B17;
+}
+.bordered {
+    border-right: 1px solid #f1f1f1;
+}
+.block-p a:hover {
+    border-bottom: 1px solid;
+}
+.block-p-two {
+    font-size: 16px;
+}
+.jobs-head-main {
+    color: #454545;
+    font-size: 34px;
+    font-weight: 700;
+}
+.heading-one {
+    font-size: 24px;
+}
+.spotlght-discription ul {
+    margin-bottom: 18px;
+}
+.spotlght-discription ul li {
+    padding-left: 20px;
+    position: relative;
+    font-size: 15px;
+}
+.spotlght-discription ul li:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+    background-color: var(--main-bg-color);
+    border-radius: 50%;
+}
+#applyjob.modal.modal-top .modal-body {
+    padding: 20px 30px 10px 30px;
+    max-height: 696px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+#applyjob.modal.modal-top .modal-content {
+    padding: 0rem 0rem;
+    border-radius: 10px !important;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+}
+#applyjob .modal-top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.form-start .form-control, 
+.form-nw .form-control {
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 5px !important;
+    height: auto;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+.form-start .form-control:focus, .form-start .form-control:active, .form-start .form-control:focus-visible,
+.form-nw .form-control:focus, .form-nw .form-control:active, .form-nw .form-control:focus-visible {
+    border: 1px solid #568B17;
+	box-shadow: none;
+	outline: none;
+}
+.custom-row-radio .button {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.custom-row-radio .button label, 
+.custom-row-radio .button input {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.custom-row-radio .button input[type="radio"], 
+.custom-row-radio .button input[type="checkbox"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+.custom-row-radio .button input[type="radio"]:checked + label,
+.custom-row-radio .button input[type="checkbox"]:checked + label {
+    border-radius: 4px;
+    border: 1px solid #568b17;
+	opacity: 1;
+}
+.custom-row-radio .button input[type="radio"]:checked + label:after,
+.custom-row-radio .button input[type="checkbox"]:checked + label:after {
+	background-color: #568b17;
+	color: #fff;
+	border-color: #568b17;
+}
+.custom-row-radio .button label {
+    cursor: pointer;
+    z-index: 1;
+    line-height: 1.8em;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    display: flex;
+    padding: 15px 10px;
+    position: relative;
+    color: #000;
+    opacity: 0.7;
+    background-color: #fff;
+}
+.custom-row-radio .button label:after {
+    content: "";
+    position: absolute;
+    background-image: url(https://www.uengage.io/assets/uen_io/images/check-tick.svg);
+    font-weight: 900;
+    right: -5px;
+    top: -10px;
+    border-radius: 50%;
+    background-color: #f5f5f6;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid white;
+    color: #fff;
+}
+.span-image {
+    width: 100%;
+    max-width: 27%;
+    padding: 0 10px 0 0px;
+}
+.span-text {
+    width: 100%;
+    max-width: 73%;
+    line-height: 22px;
+}
+.span-text strong {
+    display: block;
+    margin-bottom: 3px;
+}
+.form-start .hide {
+    display: none;
+    padding-top: 10px;
+}
+.form-start-outer .modal-lower-discription {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.order-btn-full {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    fill: #5C5763;
+    color: #5C5763;
+    background-color: #ffffff;
+    border-radius: 30px 30px 30px 30px !important;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding: 15px 35px 15px 35px;
+}
+.order-btn-full.colr {
+    color: #ffffff;
+    background-color: #5C5763;
+}
+.common-spacing-three {
+    padding: 60px 0px 60px 0px;
+}
+.page-header-title {
+    display: block;
+    font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 400;
+    margin: 0;
+    color: #333;
+}
+.block-p {
+    font-size: 15px;
+}
+@media screen and (min-width: 991px) {
+.form-start-outer .modal-lower-discription {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    left: 0px;
+    width: 100%;
+    z-index: 11;
+    box-shadow: 0px 0px 10px #00000029;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.form-height {
+    max-height: 456px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    margin-right: -30px;
+}
+.contact-pg .form-height {
+    max-height: 100%;
+    overflow: visible;
+    padding: 0px;
+    margin: 0px;
+}
+.contact-pg .form-start-outer .modal-lower-discription {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    bottom: 0px;
+    background: none;
+    left: 0px;
+    width: 100%;
+    z-index: 11;
+    box-shadow: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#applyjob .modal-body {
+    padding-bottom: 80px !important;
+}
+
+}
+@media only screen and (max-width: 991px) {
+#applyjob .modal-body {
+    padding-bottom: 75px !important;
+}
+
+}
+@media only screen and (max-width: 767px) {
+#applyjob .modal-body {
+    padding-bottom: 75px !important;
+}
+.jobs-head-main {
+    font-size: 20px;
+}
+.heading-one {
+    font-size: 17px;
+}
+.bordered {
+    border-right: none;
+}
+#applyjob.modal.modal-top .modal-content {
+    border-radius: 0px !important;
+}
+#applyjob.modal.modal-top .modal-body {
+    padding: 15px;
+}
+.common-spacing-three {
+    padding: 40px 0px 40px 0px;
+}
+
+}

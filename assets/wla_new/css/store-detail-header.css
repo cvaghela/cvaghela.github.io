@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap');
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.common-sec {
+    padding: 30px 0px;
+}
+.top-card-detail {
+    background-color: #fff;
+    padding: 25px 25px;
+    border-radius: 20px 20px 20px 0px;
+    position: relative;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.tp-one:before {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, #aaaaaa, #ffffff);
+}
+.tp-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.review {
+    border: 1px solid #118E50;
+    display: inline-flex;
+    border-radius: 10px;
+    font-size: 13px;
+    background-color: #fff;
+}
+.first-review, .second-review {
+    padding: 3px 6px;
+}
+.first-review {
+    border-radius: 8px;
+    background-color: #118E50;
+    color: #fff;
+    font-weight: 600;
+}
+.second-review {
+    color: #000;
+}
+.first-review svg {
+    margin-right: 5px;
+}
+.top-one-left h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    letter-spacing: 0px;
+}
+.tp-one .top-one-left {
+    width: 100%;
+    max-width: 72%;
+}
+.tp-one .top-one-right {
+    width: 100%;
+    max-width: 28%;
+}
+.data-types li {
+    padding: 0 10px;
+    border-right: 1px solid #118E50;
+}
+.data-types li:first-child {
+    padding-left: 0px;
+}
+.data-types li:last-child {
+    padding-right: 0px;
+    border-right: none;
+}
+.data-types p {
+    color: #118E50;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: normal;
+}
+.data-types p svg {
+    margin-right: 5px;
+    width: auto;
+    height: 15px;
+}
+.tp-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.tp-two .tp-two-left {
+    width: 100%;
+    max-width: 60%;
+}
+.tp-two .tp-two-right {
+    width: 100%;
+    max-width: 40%;
+}
+.tp-two-right a {
+    padding: 3px 12px;
+    display: inline-block;
+    margin: 0 2px;
+    border: 1px solid var(--main-bg-color);
+    border-radius: 13px !important;
+    color: var(--main-bg-color);
+    font-weight: 500;
+}
+.tp-two-right a.primary-button-single {
+    background-color: var(--main-bg-color);
+    color: #fff;
+}
+.tp-two-right a svg {
+    width: 100%;
+    max-width: 17px;
+    margin-right: 1px;
+}
+.tp-two-right a.primary-button-single svg path {
+    fill: #fff;
+}
+.tp-two-right a.secomdary-button-single svg path {
+    fill: var(--main-bg-color);
+}
+.tp-two:before {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    z-index: 0;
+    background-image: linear-gradient(to right, #aaaaaa, #ffffff);
+}
+.outlet-disc p {
+    color: #666;
+    font-weight: 500;
+}
+.outlet-disc p span {
+    color: #000;
+}
+.outlet-pointers li {
+    display: flex;
+    margin-bottom: 5px;
+}
+.outlet-pointers li:last-child {
+    margin-bottom: 0px;
+}
+.outlet-pointers {
+    color: #444;
+}
+.outlet-pointers li span:first-child {
+    width: 19px;
+    margin-right: 5px;
+}
+.outlet-des:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: var(--main-bg-color);
+    top: 0px;
+    border-radius: 0 0 100px 100px;
+}
+.tabs-clicable {
+    display: flex
+;
+    padding: 10px 25px;
+    border-radius: 0px 0px 0px 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.tabs-clicable:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0px;
+    background-color: var(--main-bg-color);
+    opacity: 0.1;
+    z-index: 0;
+}
+.tabs-clicable li a {
+    padding: 0px 18px;
+    position: relative;
+    font-weight: 500;
+}
+.tabs-clicable a.active {
+    font-weight: 700;
+    color: var(--main-bg-color);
+    position: relative;
+}
+.tabs-clicable a.active:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -14px;
+    left: 0px;
+    background-color: var(--main-bg-color);
+    border-radius: 10px;
+}
+.download-app-section {
+    padding: 30px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #DCDCDC;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 84px;
+    z-index: 1;
+}
+.download-app-section .download-app-heading {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.download-app-section .logo {
+    width: 100%;
+    max-width: 140px;
+    margin-bottom: 10px;
+}
+.download-app-para {
+    font-weight: 600;
+}
+.download-icons a {
+    margin: 0px 5px;
+}
+.download-icons a:first-child {
+    margin-left: 0px;
+}
+.download-icons a:last-child {
+    margin-right: 0px;
+}
+.download-icons img {
+    width: 100%;
+    max-width: 120px;
+}
+.download-app-section .qr-code {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 180px;
+    height: max-content;
+}
+.veg-flag {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #3DA66E;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 7px;
+    margin-top: 2px;
+    position: relative;
+    border-radius: 3px;
+}
+.veg-flag span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #3DA66E;
+    border-radius: 50% !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.non-vegflag {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #fd1615;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 7px;
+    margin-top: 2px;
+    position: relative;
+    border-radius: 3px;
+}
+.non-vegflag span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 7px solid #fd1615;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+body .login-screen.promocode.confirmmodal .modal-content {
+    padding: 0rem;
+}
+body .login-screen.confirmmodal .modal-header {
+    padding: 1rem 1rem;
+    border: none;
+}
+body .login-screen.confirmmodal.modal.modal-top .modal-body {
+    padding: 1rem 1rem !important;
+    background-color: #f1f0f5;
+}
+body .login-screen.promocode.confirmmodal .modal-footer {
+    padding: 1rem 1rem !important;
+}
+.inner-page > .container > .row > .col-md-8:first-child {
+    border-right: 1px solid #DCDCDC;
+}
+
+@media only screen and (max-width: 767px) {
+.tabs-clicable li a {
+    padding: 0px 10px;
+}
+.tabs-clicable {
+    justify-content: center;
+    padding: 25px 25px 10px 25px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -18px;
+    z-index: 1;
+    background-color: #fff;
+}
+.common-sec {
+    z-index: 2;
+}
+#reservation-confirmed {
+    margin-top: -20px;
+    z-index: 0;
+    position: relative;
+}
+.top-card-detail {
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1;
+    padding: 15px 15px;
+}
+.top-one-left h1 {
+    font-size: 22px;
+    width: 100%;
+    max-width: 61%;
+}
+.outlet-des:before {
+    border-radius: 0 0 50px 50px;
+}
+.tp-two .tp-two-left {
+    max-width: 100%;
+}
+.tp-two .tp-two-right {
+    max-width: 100%;
+}
+.data-types p {
+    font-size: 12px;
+}
+.data-types li {
+    padding: 0 8px;
+}
+.data-types p svg {
+    margin-right: 4px;
+    max-width: 13px;
+}
+.first-review svg {
+    margin-right: 3px;
+    width: 100%;
+    max-width: 12px;
+}
+.tp-one .top-one-left {
+    max-width: 100%;
+}
+.tp-one .top-one-right {
+    max-width: 100%;
+}
+.review {
+    font-size: 11px;
+}
+.review {
+    font-size: 11px;
+    line-height: 16px;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+}
+.first-review, .second-review {
+    padding: 3px 5px;
+}
+.data-types {
+    padding-top: 5px;
+}
+.download-app-section {
+    padding: 20px 10px;
+    display: flex
+;
+    align-items: center;
+    z-index: 0;
+}
+.delivery-div {
+    width: 100%;
+    max-width: 60%;
+    padding-right: 15px;
+}
+.app-download {
+    width: 100%;
+    max-width: 40%;
+}
+.download-app-para {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.download-app-section .qr-code {
+    margin-bottom: 0;
+    max-width: 97px;
+}
+.download-app-section .download-app-heading {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.download-app-section .logo {
+    max-width: 130px;
+}
+.download-app-para-two {
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.download-icons a {
+    margin: 0px 2px;
+}
+.download-icons img {
+    max-width: 82px;
+}
+.inner-page > .container > .row > .col-md-8:first-child {
+    border-right: none;
+}
+
+}

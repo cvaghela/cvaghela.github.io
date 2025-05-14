@@ -1,0 +1,399 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+.strikethrough {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;  /* Change the color of the strike-through */
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;  /* Smooth transition */
+}
+.common-coupen {
+    overflow-x: autos;
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+.onlyone .common-coupen, .onlytwo .common-coupen {
+    justify-content: center;
+}
+.common-coupen::-webkit-scrollbar-track,
+.tags-div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+.common-coupen::-webkit-scrollbar,
+.tags-div::-webkit-scrollbar {
+    height: 5px;
+    background-color: #F5F5F5;
+}
+.common-coupen::-webkit-scrollbar-thumb,
+.tags-div::-webkit-scrollbar-thumb {
+    background-color: #898989;
+}
+.coupen-card, .featured-outer {
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.promo-dv {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-bottom: 0;
+    width: 300px;
+    height: 100%;
+}
+.promo-dv p {
+    font-size: 14px;
+    color: #696969;
+}
+.promo-dv h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 2px;
+}
+.promo-dv svg {
+    margin-top: -47px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.coupon-discription {
+    margin-top: -8px;
+    margin-bottom: -4px;
+}
+.outlet-info-card-tp {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px #00000029;
+    display: flex;
+    align-items: center;
+}
+.hidden-span {
+    position: absolute;
+    visibility: hidden;
+    white-space: nowrap;
+    font-size: 39px;
+    font-family: inherit;
+}
+#originalPrice {
+    box-sizing: content-box;
+    width:50px;
+    font-size: 39px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #cacaca;
+    outline: none;
+    text-align: center;
+    appearance: none;
+    -moz-appearance: textfield;
+    color: #000;
+    font-weight: 600;
+}
+#originalPrice:disabled {
+    background-color: transparent;
+    color: #666;
+    border-color: black;
+    font-weight: 400;
+    font-size: 35px !important;
+}
+#originalPrice::placeholder {
+    color: #000;
+}
+/* Remove up/down arrows in WebKit browsers (Chrome, Safari) */
+#originalPrice::-webkit-outer-spin-button,
+#originalPrice::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.outlet-info-card-tp .outlet-left {
+    width: 100%;
+    max-width: 80px;
+}
+.outlet-info-card-tp .outlet-left {
+    width: 100%;
+    max-width: 80px;
+    padding-right: 20px;
+}
+.outlet-heading {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+.outlet-para {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.coupon-div {
+    background-color: #F6FFFA;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+}
+.coupon-div .coupon-image {
+    width: 100%;
+    max-width: 60px;
+    padding-right: 20px;
+}
+.coupon-text h2 {
+    font-size: 17px;
+    font-weight: 580;
+    margin-bottom: 0;
+}
+.coupon-text p {
+    margin-bottom: 0;
+    font-size: 16px;
+	color: #707070;
+	font-weight: 500;
+}
+.enter-amount {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px #00000029;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.amount-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+    margin-bottom: 19px;
+}
+.amount-heading span {
+    padding: 10px 15px;
+    background-color: #fff;
+    position: relative;
+}
+.amount-heading:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, #fff, #dcbac9, #fff);
+    left: 0px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.amount-para {
+    font-weight: 500;
+    font-size: 14px;
+    color: #6E6B6B;
+}
+.amount-text-stary {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.amount-text-stary svg {
+    height: 20px;
+    width: 100%;
+    max-width: 20px;
+}
+.discounted-price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 42px;
+    padding: 5px 0;
+    margin-bottom: 2px;
+    color: #00923F;
+    font-weight: 600;
+}
+.discounted-price svg {
+    width: 100%;
+    max-width: 18px;
+}
+.edit-mount span {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+.coupon-div.saving-div {
+    border: 1px solid var(--main-bg-color);
+    width: 100%;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 12px 15px;
+}
+.coupon-div .coupon-image img {
+    width: 100%;
+}
+.saving-div .coupon-text p {
+    color: #006630;
+    font-size: 18px;
+}
+.stikcy-btn .add-btn {
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 600;
+    /* padding: 12px 0; */
+}
+.bill-payment {
+    padding: 10px 0 0;
+}
+.bill-payment h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+}
+#cartTable {
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000;
+}
+#cartTable td {
+    padding: 3px 30px;
+}
+.coupon-div.saving-div .coupon-image {
+    max-width: 40px;
+    padding-right: 10px;
+}
+.faq .card .card-header .btn-header-link:after {
+    right: 10px;
+}
+.faq {
+    box-shadow: 0px 2px 3px #00000029 !important;
+}
+#faqgeneralhead ul, #tncHead ul {
+    font-size: 12px;
+    padding-left: 15px;
+}
+#faqgeneralhead ul li, #tncHead ul li {
+    margin-bottom: 6px;
+    list-style-type: decimal;
+}
+.discounted-price i {
+    font-size: 27px;
+}
+p#editAmount {
+    width: auto;
+    max-width: max-content;
+    margin: 0 auto;
+    color: #000;
+}
+#editAmount:hover {
+    color: var(--main-bg-color);
+}
+#editAmount:hover svg path {
+    fill: var(--main-bg-color);
+}
+#faqgeneralhead ol {
+    padding-left: 15px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#faqgeneralhead ol li {
+    margin-bottom: 6px;
+}
+#faqgeneralhead ol li:last-child {
+    margin-bottom: 0px;
+}
+#originalPrice::placeholder {
+    color: #a8a8a8;
+}
+.single-promo #offerCardsContainer {
+    justify-content: center;
+}
+.stikcy-btn {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+.outlet-info-card-tp {
+    padding: 10px 20px;
+}
+.outlet-info-card-tp .outlet-left {
+    max-width: 60px;
+    padding-right: 10px;
+}
+.outlet-heading {
+    font-size: 16px;
+}
+.coupon-div {
+	padding: 10px 20px;
+}
+.coupon-div .coupon-image {
+    max-width: 50px;
+	padding-right: 10px;
+}
+.coupon-text h2 {
+    font-size: 12px;
+}
+.coupon-text p {
+    font-size: 14px;
+}
+.saving-div .coupon-text p {
+    font-size: 16px;
+}
+.coupon-div.saving-div .coupon-image {
+    max-width: 33px;
+    padding-right: 8px;
+}
+.coupon-div.saving-div {
+    padding: 10px 10px;
+}
+.saving-div .coupon-text p {
+    font-size: 15px;
+}
+.stikcy-btn {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #00000029;
+    z-index: 2;
+}
+.stikcy-btn .add-btn {
+    max-width: 100%;
+}
+.footer-bottom {
+    padding-bottom: 85px !important;
+}
+.outlet-heading {
+    font-weight: 600;
+}
+.away-kms.mb-3 {
+    font-size: 11px !important;
+}
+.away-kms.mb-3 i.las.la-exclamation-circle {
+    font-size: 17px !important;
+    margin-right: 3px !important;
+}
+.amount-heading {
+    font-size: 16px;
+}
+.single-promo .promo-dv {
+    width: 100%;
+}
+.stikcy-btn {
+    margin-bottom: 0px;
+}
+
+}

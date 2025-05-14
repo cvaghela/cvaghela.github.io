@@ -1,0 +1,598 @@
+@media (min-width: 1200px) and (max-width:1450px)
+{
+    .title h2{
+        font-size: 40px;
+    }
+    .screenshot-slide .slick-dots{
+        position: absolute;
+        padding: 0;
+        left: -12rem;
+        top: 27rem;
+        margin: 0;
+    }
+   
+   .screenshot-slide:before
+   {
+      display: none;
+   }
+   .app-store-section
+   {
+       width:1170px;
+       margin: 0 auto;
+   }
+   .app-store-section .screenshot-slide:before
+   {
+       background-size: 53%;
+   }
+}
+
+
+@media (min-width: 1024px) and (max-width:1199.98px)
+{
+   
+   .screenshot-slide:before
+   {
+     content: '';
+       position: absolute;
+       top: -3.2rem;
+       left: -4px;
+       width: 325px;
+       height: 646px;
+       z-index: 1;
+   }
+   .app-store-section
+   {
+       width:970px;
+       margin: 0 auto;
+   }
+   .app-store-section .screenshot-slide:before
+   {
+       background-size: 87%;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+    .banner-slide
+    {
+        margin-top: 75px;
+    }
+    .about-sec
+    {
+        padding: 4rem 15px;
+    }
+    .screenshot-slide
+    {
+        margin-top: 2rem
+    }
+    .screenshot-slide:before
+    {
+        display: none
+    }
+    .copyright p
+    {
+        font-size: 14px;
+    }
+    .app-store-section
+    {
+        padding: 5rem 15px 22rem;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+     .map-wrap
+    {
+        margin-top: 2rem;
+    }
+    .map-wrap a
+    {
+        top: 25%;
+        left: 28%;
+    }
+    .map-wrapper
+    {
+        padding-bottom: 0
+    }
+    .about-sections
+    {
+        padding: 3rem 0;
+    }
+    .award-section
+    {
+        padding-top: 0;
+        padding-bottom: 0rem
+    }
+    .about-sec
+    {
+        padding: 3rem 1rem 5rem;
+    }
+    .about-sections aside
+    {
+        padding: 0 1rem
+    }
+    .story-content h2,
+    .about-sections aside h2
+    {
+        font-size: 32px;
+    }
+    .story-content p, .about-sections aside p
+    {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .about-us-block img
+    {
+        margin-bottom: 20px;
+    }
+    .block-stl12 .title h2,
+    .text-block-stl1 .title h2
+    {
+        font-size: 28px;
+    }
+    .title p.top-h,
+    .text-block-stl1 .title .top-h
+    {
+        font-size: 42px;
+    }
+    .title h2,
+    .form-block1 .title h2
+    {
+        font-size: 28px;
+    }
+    .screenshot-slide:before
+    {
+        display: none;
+    }
+    .app-store-section
+    {
+        padding: 3rem 0 3rem;
+    }
+    .banner-slide
+    {
+        margin-top: 75px
+    }
+    .banner-slide .slick-arrow
+    {
+        background-size: 50% !important;
+    }
+    .screenshot-slide
+    {
+        margin-top: 20px;
+    }
+    .screenshot-slide figure
+    {
+        padding:0 15px;
+    }
+    .about-us-block
+    {
+        padding-bottom: 4rem
+    }
+    .about-us-block
+    {
+        margin-top: 75px
+    }
+    .about-us-block .col-custom1,
+    .about-us-block .col-custom2
+    {
+        width: 100%
+    }
+    .about-us-block .block-stl12
+    {
+        padding: 0 15px;
+    }
+    .about-sections img
+    {
+        margin-top: 15px;
+    }
+    .our-history
+    {
+        padding: 3rem 0
+    }
+    .story-content p, .about-sections aside p
+    {
+        margin-top: 10px;
+    }
+    .form-block1.contact-form-wrap
+    {
+        padding-bottom: 3rem;
+    }
+     .f-content p
+    {
+        font-size: 14px;
+    }
+    .e-offers-code
+    {
+        min-height: 190px;
+    }
+    .store-wrap .media
+    {
+        display: block;
+        text-align: center;
+    }
+    .store-wrap .media img
+    {
+        display: inline-block;
+    }
+    .store-wrap ul li
+    {
+        margin: 0 5px;
+    }
+    .store-wrap .btn
+    {
+        width: 100%;
+        padding: 10px !important;
+    }
+    #e-offers-slide .slick-arrow
+    {
+        top: -32px;
+    }
+    #e-offers-slide .slick-prev
+    {
+        top: -39px;
+    }
+    .e-offers-wrap .row
+    {
+        margin:15px -15px 0;
+    }
+    .e-offers-wrap h5,
+    .store-left-panel .card-header
+    {
+        font-size: 16px;
+    }
+    .store-city-list
+    {
+        height: auto;
+    }
+    .store-page-wrapper
+    {
+        margin-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    .store-page-wrapper h2
+    {
+        margin-bottom: 10px;
+    }
+    .store-left-panel .card-body
+    {
+        padding: 10px;
+    }
+    .store-left-panel ul li
+    {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .store-left-panel ul li a
+    {
+        font-size: 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 2px 5px;
+        margin-bottom: 5px;
+    }
+    .offers-coupon h3
+    {
+        font-size: 16px;
+    }
+    .offers-coupon .p-code
+    {
+        margin-top: 20px;
+    }
+    .sections-content h2
+    {
+        font-size: 28px;
+    }
+
+    
+}
+
+
+@media (max-width:575.98px)
+{
+    .offers-coupon h3
+    {
+        font-size: 16px;
+    }
+    .offers-coupon .p-code
+    {
+        margin-top: 20px;
+    }
+    .call-btns button
+    {
+        padding: 10px 20px!important;
+    }
+    .e-offers-code
+    {
+        min-height: 175px;
+    }
+    .store-wrap .media
+    {
+        display: block;
+        text-align: center;
+    }
+    .store-wrap .media img
+    {
+        display: inline-block;
+    }
+    .store-wrap ul li
+    {
+        margin: 0 5px;
+    }
+    .store-wrap .btn
+    {
+        width: 100%;
+        padding: 10px !important;
+    }
+    #e-offers-slide .slick-arrow
+    {
+        top: -32px;
+    }
+    #e-offers-slide .slick-prev
+    {
+        top: -39px;
+    }
+    .e-offers-wrap .row
+    {
+        margin:15px -15px 0;
+    }
+    .e-offers-wrap h5,
+    .store-left-panel .card-header
+    {
+        font-size: 16px;
+    }
+    .store-city-list
+    {
+        height: auto;
+    }
+    .store-page-wrapper
+    {
+        margin-top: 6rem;
+        padding-bottom: 5rem;
+    }
+    .store-page-wrapper h2
+    {
+        margin-bottom: 10px;
+    }
+    .store-left-panel .card-body
+    {
+        padding: 10px;
+    }
+    .store-left-panel ul li
+    {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .store-left-panel ul li a
+    {
+        font-size: 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 2px 5px;
+        margin-bottom: 5px;
+    }
+    .f-wrapper {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
+	}
+    .site-forms
+    {
+        margin-top: 2rem
+    }
+	.company-info {
+		padding: 1rem;
+		margin-top: 1rem;
+		height: auto;
+	}
+    .sections
+    {
+        padding: 3rem 0;
+    }
+    .banner-slide a img:last-child
+    {
+        display: block;
+    }
+    .banner-slide a img:first-child
+    {
+        display: none;
+    }
+    .banner-slide .slick-dots
+    {
+        bottom: -2rem
+    }
+    .sections-content h2
+    {
+        font-size: 24px;
+    }
+    .form-block1.contact-form-wrap
+    {
+        padding-bottom: 3rem;
+    }
+    .h-about-sec img
+    {
+        margin-top: 20px;
+    }
+    .amezing-offers:after
+    {
+        background-size: cover !important;
+    }
+    .play-store-btns a
+    {
+        margin-top: 10px
+    }
+    .banner-slide
+    {
+        margin-top: 75px;
+    }
+    .banner-slide .slick-arrow
+    {
+        background-size: 50% !important;
+    }
+    .screenshot-slide:before
+    {
+        display: none
+    }
+    .app-store-section
+    {
+         padding: 2rem 15px;
+    }
+    .screenshot-slide
+    {
+        margin-top: 2rem
+    }
+    .screenshot-slide .slick-dots
+    {
+        text-align: center;
+        position: unset;
+        margin-top: 1rem
+    }
+    .p-wrap h4
+    {
+        font-size: 14px;
+    }
+    .p-wrap img
+    {
+        width: 40px;
+    }
+    .p-wrap
+    {
+        padding: 1.5rem 10px;
+        margin-bottom: 1.5rem;
+    }
+    .app-store-section h2
+    {
+        font-size: 24px;
+    }
+    .cities-section
+    {
+        padding-top: 0;
+    }
+    .cities-sections .sections-content 
+    {
+        padding: 2rem 1rem 0rem;
+    }
+    
+    .cities-sections ul li
+    {
+        font-size: 14px;
+        width: auto;
+    }
+    .cities-sections ul li:nth-child(even)
+    {
+        /* padding-left: 15%; */
+    }
+    .cities-sections ul li i {
+        margin-right: 5px;
+    }
+    .testimonial-section:after
+    {
+        background-size: cover !important;
+    }
+    .testimonial-slider .slick-dots
+    {
+        margin-top: 30px;
+    }
+    .about-sec
+    {
+        padding:2rem 1rem 4rem;
+    }
+    .about-sec img
+    {
+        margin-top: 2rem
+    }
+    .free-div
+    {
+        padding-bottom: 2em !important; 
+    }
+    .story-content p,
+    .about-sections aside p
+    {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .about-sections
+    {
+        padding: 3rem 15px;
+    }
+    .about-sections aside
+    {
+        padding:0;
+    }
+    .about-sections aside h2,
+    .story-content h2
+    {
+        font-size: 28px;
+    }
+    .title p.top-h,
+    .text-block-stl1 .title .top-h
+    {
+        font-size: 36px;
+    }
+    .amezing-offers
+    {
+        padding: 3rem 0;
+    }
+   
+    .about-us-block
+    {
+        margin-top: 75px
+    }
+    .about-us-block .col-custom1,
+    .about-us-block .col-custom2
+    {
+        width: 100%
+    }
+    .about-us-block .block-stl12
+    {
+        padding: 0 15px;
+    }
+    .about-sections img
+    {
+        margin-top: 15px;
+    }
+    .our-history
+    {
+        padding: 3rem 0
+    }
+    .story-content p, .about-sections aside p
+    {
+        margin-top: 10px;
+    }
+    .award-section
+    {
+        padding-top: 0;
+        padding-bottom: 10em;
+    }
+    .form-block1,
+    .map-wrapper
+    {
+        padding: 0
+    }
+    .form-block1 .title h2
+    {
+        font-size: 28px;
+    }
+    .title p.bottom-p
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .form-block1 .btn3
+    {
+        min-width: 100%;
+        width:100%
+    }
+    .map-wrap
+    {
+        margin-top: 2rem;
+    }
+    .map-wrap a
+    {
+        top: 18%;
+        left: 25%;
+    }
+    .f-content p
+    {
+        font-size: 14px;
+    }
+}
